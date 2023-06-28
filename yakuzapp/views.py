@@ -4,5 +4,5 @@ from django.http import HttpResponse
 
 def index(request):
 
-    ctx = ""
+    ctx = {}
     return render(request, 'yakuzapp/index.html', ctx)
